@@ -8,7 +8,7 @@ from Data import DatasetLoader
 from matplotlib import pyplot as plt
 import  numpy as np
 
-#testtest
+
 class NormalModel(nn.Module):
     def __init__(self):
         super(NormalModel, self).__init__()
