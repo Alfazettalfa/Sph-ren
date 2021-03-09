@@ -7,6 +7,10 @@ from torch import nn
 from matplotlib import pyplot as plt
 from sklearn.datasets import make_blobs
 
+#testtest
+
+print("okok")
+
 
 class DatasetLoader(Dataset):
     def __init__(self, transform):
