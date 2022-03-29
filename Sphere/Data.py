@@ -27,3 +27,7 @@ class DatasetLoader(Dataset):
         if self.transform:
             x = self.transform(x)
         return x, torch.tensor(self.y[index], dtype=torch.float).unsqueeze(0)
+
+
+def dummy(x):
+    return x
